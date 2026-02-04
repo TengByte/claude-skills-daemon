@@ -1,7 +1,7 @@
 {
   "name": "claude-skills-daemon",
   "version": "1.0.0",
-  "description": "Local daemon for Claude Skills Marketplace - enables one-click skill installation",
+  "description": "Local daemon and CLI tool for Claude Skills - enables one-click browser installation or command-line skill management",
   "main": "daemon/server.js",
   "bin": {
     "claude-skills-daemon": "./cli/daemon-cli.js",
@@ -17,9 +17,21 @@
     "ai",
     "skills",
     "marketplace",
-    "daemon"
+    "daemon",
+    "cli",
+    "anthropic",
+    "skill-manager",
+    "npx"
   ],
-  "author": "",
+  "author": "TengByte <tengli.global@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TengByte/claude-skills-daemon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TengByte/claude-skills-daemon/issues"
+  },
+  "homepage": "https://github.com/TengByte/claude-skills-daemon#readme",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
